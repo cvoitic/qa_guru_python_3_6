@@ -25,7 +25,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 # 2 with abs_path
 current_dir = os.path.dirname(os.path.abspath(__file__))
-tmp_dir = os.path.join(current_dir, 'tmp')
+tmp_dir = os.path.join(current_dir, '../tmp')
 options = webdriver.ChromeOptions()
 prefs = {
     'download.default_directory': tmp_dir,
